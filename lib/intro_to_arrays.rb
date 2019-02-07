@@ -6,7 +6,7 @@ def array_with_two_elements
   array = ["elem1", "elem2"]
 end
 
-def first_element
-  array.find_index
+def first_element(array)
+  array.index
 end
   
